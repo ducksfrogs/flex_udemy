@@ -1,19 +1,38 @@
+img {
+    width: 400px;
+    height: 400px;
+    object-fit: cover;
+}
+
+.section .content p:first-of-type {
+    text-align: center;
+}
+
+.section .content h3 {
+    text-align: right;
+}
+
+.section {
+    width: 400px;
+    background-color: gold;
+}
+
 body{
-    color: green;
-}
-
-ul{
-    background-color: lightcoral;
-    padding: 20px;
-
+    background-color: aqua;
     display: flex;
-    flex-wrap: nowrap;
+
+    justify-content: center;
+    align-items: center;
 }
 
-li {
-    list-style: none;
-    background-color: #202020;
-    padding: 10px;
-    margin: 20px;
-    width: 100px;
+.section {
+    margin: 0 45px 0;
+}
+
+.section .content p:first-of-type,
+.section .content h3,
+.section .content p:last-of-type {
+    text-align: left;
+    margin-top: 15px;
+    margin-left: 25px;
 }
